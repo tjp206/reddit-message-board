@@ -1,7 +1,7 @@
 ---
 name: Job Story template
 about: Describe the job story here.
-title: "[Add one liner title]"
+title: "[Add your title here]"
 labels: task
 assignees: ''
 
