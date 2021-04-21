@@ -50,3 +50,8 @@ table {
 body {
   font-family: 'Ubuntu', sans-serif;
 }
+
+/* moves main component to sit alongside side nav component */
+.container {
+	display: flex;
+}

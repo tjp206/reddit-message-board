@@ -1,10 +1,14 @@
+import MainAppComponent from './components/MainAppComponent';
 import SideNav from './components/SideNav.js';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <SideNav />
+      <div className="container">
+        <SideNav />
+        <MainAppComponent />
+      </div>
     </div>
   );
 }

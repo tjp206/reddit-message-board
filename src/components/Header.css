@@ -1,0 +1,27 @@
+.header {
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2em 0.25em;
+}
+
+.header a {
+    color: #06033a;
+    text-decoration: none;
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+}
+
+.header li a {
+    padding: 10px;
+    margin: 10px;
+}
+
+.header a.active {
+    color: #fd4500;
+    border-bottom: 2px solid #fd4500;
+}
