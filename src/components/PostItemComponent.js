@@ -8,9 +8,9 @@ const PostItemComponent = (props) => {
     return (
         <div className="post-item">
             <div className="post-item-left">
-                <i className="fas fa-caret-up"></i>
+                <button className="fas fa-caret-up"></button>
                     <span>{ upvote }</span>
-                <i className="fas fa-caret-down"></i>
+                <button className="fas fa-caret-down"></button>
             </div>
             <div className="post-item-centre">
                 <img src={ image } alt="" />

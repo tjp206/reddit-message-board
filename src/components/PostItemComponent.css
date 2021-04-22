@@ -16,9 +16,12 @@
     align-items: center;
 }
 
-.post-item-left > i {
+.post-item-left > button {
     font-size: large;
     color: #06033a;
+    border-style: none;
+    border-radius: 50%;
+    background: transparent;
 }
 
 .post-item-centre > img {
